@@ -8,7 +8,7 @@ import Notification from './components/Notification';
 import { showNotification as show, checkWin } from './helpers/helpers';
 import './App.css';
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+const words = ['application', 'programming', 'interface', 'wizard', 'javascript'];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
 function App() {
